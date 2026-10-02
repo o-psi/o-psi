@@ -1,0 +1,64 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: '17 8 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/profile-cards.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=o-psi&show_icons=true&hide_rank=true&hide_border=true&card_width=480&bg_color=ffffff&title_color=0284c7&text_color=334155&icon_color=0284c7
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate languages (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=o-psi&layout=compact&langs_count=8&hide_border=true&card_width=480&bg_color=ffffff&title_color=0284c7&text_color=334155&icon_color=0284c7
+          path: profile/languages-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate stats (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=o-psi&show_icons=true&hide_rank=true&hide_border=true&card_width=480&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&icon_color=38bdf8
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate languages (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=o-psi&layout=compact&langs_count=8&hide_border=true&card_width=480&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&icon_color=38bdf8
+          path: profile/languages-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Update profile cards"
+            git push
+          fi
