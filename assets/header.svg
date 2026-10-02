@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">o-psi — Andrew Malsbury</title><desc id="desc">A red wave design with the GitHub handle o-psi and Andrew Malsbury's name.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#16090c"/><stop offset="1" stop-color="#300f17"/></linearGradient><linearGradient id="wave"><stop stop-color="#be123c"/><stop offset="1" stop-color="#ef4444"/></linearGradient></defs>
+<rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+<g fill="none" stroke="#fb7185" stroke-opacity=".13"><circle cx="1030" cy="60" r="125"/><circle cx="1030" cy="60" r="190"/><circle cx="1030" cy="60" r="255"/><path d="M650 0V320M850 0V320M1050 0V320M600 80H1200M600 160H1200M600 240H1200"/></g>
+<path d="M590 280C720 125 820 340 975 175S1170 195 1200 145V320H590Z" fill="#881337" opacity=".6"/>
+<path d="M660 320C800 165 860 340 1020 215S1160 250 1200 220V320Z" fill="url(#wave)" opacity=".8"/>
+<path d="M660 320C800 165 860 340 1020 215S1160 250 1200 220" fill="none" stroke="#f87171" stroke-width="2"/>
+<rect x="66" y="61" width="34" height="4" rx="2" fill="#f87171"/>
+<text x="64" y="175" fill="#fff1f2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="94" font-weight="700" letter-spacing="-6">o-psi<tspan fill="#f87171">.</tspan></text>
+<text x="69" y="221" fill="#d9a7af" font-family="Arial, sans-serif" font-size="23" letter-spacing="2">ANDREW MALSBURY</text>
+</svg>
