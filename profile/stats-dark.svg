@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Andrew Malsbury&#39;s GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 17, Total Commits  (last year) : 4659, Total PRs: 3326, Total Issues: 400, Contributed to (last year): 6</desc>
+        <title id="titleId">Andrew Malsbury&#39;s GitHub Stats, Rank: A-</title>
+        <desc id="descId">Total Stars Earned: 18, Total Commits  (last year) : 4668, Total PRs: 3326, Total Issues: 407, Contributed to (last year): 6</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 95.09915856153881;
+        stroke-dashoffset: 94.17969881571376;
       }
     }
   
@@ -158,7 +158,7 @@
         x="224.01"
         y="12.5"
         data-testid="stars"
-      >17</text>
+      >18</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -203,7 +203,7 @@
         x="224.01"
         y="12.5"
         data-testid="issues"
-      >400</text>
+      >407</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
