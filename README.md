@@ -21,8 +21,8 @@ Helm terminal agent and Vessel management plane.
 ## GitHub activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
-  <img width="480" src="./profile/stats-light.svg" alt="GitHub activity statistics" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg?v=2016" />
+  <img width="480" src="./profile/stats-light.svg?v=2016" alt="GitHub activity statistics" />
 </picture>
 
 <img width="100%" src="./assets/footer.svg" alt="" />
