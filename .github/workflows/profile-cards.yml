@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - '.github/workflows/profile-cards.yml'
+      - 'scripts/add-contribution-year.py'
 
 permissions:
   contents: write
@@ -40,6 +41,9 @@ jobs:
           path: profile/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
+
+      - name: Add first contribution year
+        run: python3 scripts/add-contribution-year.py
 
       - name: Commit updated cards
         run: |

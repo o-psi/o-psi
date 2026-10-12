@@ -1,15 +1,15 @@
 
       <svg
         width="480"
-        height="195"
-        viewBox="0 0 480 195"
+        height="220"
+        viewBox="0 0 480 220"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
         aria-labelledby="descId"
       >
         <title id="titleId">Andrew Malsbury&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 18, Total Commits  (last year) : 2338, Total PRs: 3326, Total Issues: 407, Contributed to (last year): 5</desc>
+        <desc id="descId">Total Stars Earned: 18, Total Commits  (last year) : 2338, Total PRs: 3326, Total Issues: 407, Contributed to (last year): 5, First GitHub contribution: 2016</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -221,6 +221,16 @@
       >5</text>
     </g>
   </g>
+      <g id="first-contribution" transform="translate(0, 125)">
+        <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
+          <svg class="icon" viewBox="0 0 16 16" width="16" height="16">
+            <path d="M4 0h1.5v2h5V0H12v2h1.25A1.75 1.75 0 0 1 15 3.75v10.5A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V3.75A1.75 1.75 0 0 1 2.75 2H4V0ZM2.5 6v8.25c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25V6h-11Z" />
+          </svg>
+          <text class="stat bold" x="25" y="12.5">First GitHub contribution:</text>
+          <text class="stat bold" x="224.01" y="12.5" data-testid="first-contribution">2016</text>
+        </g>
+      </g>
+
     </svg>
   
         </g>
