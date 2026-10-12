@@ -29,7 +29,7 @@ jobs:
         with:
           card: stats
           options: username=o-psi&show_icons=true&hide_rank=true&hide_border=true&card_width=480&bg_color=ffffff&title_color=be123c&text_color=334155&icon_color=be123c
-          path: profile/stats-light.svg
+          path: profile/stats-light-v2.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
@@ -38,7 +38,7 @@ jobs:
         with:
           card: stats
           options: username=o-psi&show_icons=true&hide_rank=true&hide_border=true&card_width=480&bg_color=0d1117&title_color=fb7185&text_color=c9d1d9&icon_color=fb7185
-          path: profile/stats-dark.svg
+          path: profile/stats-dark-v2.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
