@@ -20,6 +20,10 @@ Helm terminal agent and Vessel management plane.
 
 ## GitHub activity
 
+| First GitHub contribution |
+| :---: |
+| **2016** |
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
   <img width="480" src="./profile/stats-light.svg" alt="GitHub activity statistics" />
