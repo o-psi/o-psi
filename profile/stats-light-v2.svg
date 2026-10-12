@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Andrew Malsbury&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 18, Total Commits  (last year) : 2340, Total PRs: 3326, Total Issues: 407, Contributed to (last year): 5, First GitHub contribution: 2016</desc>
+        <desc id="descId">Total Stars Earned: 18, Total Commits  (last year) : 2342, Total PRs: 3326, Total Issues: 407, Contributed to (last year): 5, First GitHub contribution: 2016</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 94.24334377907738;
+        stroke-dashoffset: 94.24299127857978;
       }
     }
   
